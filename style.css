@@ -1,0 +1,169 @@
+::root {
+  font-size: 10px;
+}
+
+body {
+  background-color: #0563bb;
+  color: #fff;
+}
+
+/* Container */
+.container {
+  display: flex;
+  width: 80%;
+  height: 500px;
+  background-color: rgb(0, 0, 0);
+  margin: 70px auto;
+  font-size: 2rem;
+  border-radius: 40px;
+  position: relative;
+}
+/* Akhir Container */
+
+
+/* Profil */
+.profil {
+  width: 40%;
+  height: 100%;
+  background-color: rgb(68, 68, 68);
+  border-radius: 40px 0 0 40px;
+  margin-left: -12px;
+  position: relative;
+}
+
+.profil img {
+  position: absolute;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 200px;
+  right: 110px;
+  top: 66px;
+}
+
+.profil h2 {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 600;
+  color: #f5f5f5;
+  margin: 5px 0 7px;
+  line-height: 1.2em;
+  bottom: 150px;
+  right: 110px;
+}
+
+.profil h4 {
+  position: absolute;
+  font-size: 22px;
+  font-weight: 300;
+  color: #bbb;
+  margin: 5px 0;
+  line-height: 1.2em;
+  bottom: 120px;
+  right: 145px;
+}
+
+.profil .fab {
+  color: #fff;
+  border-radius: 20px;
+  font-size: 18px;
+  padding: 0;
+  height: 30px;
+  width: 30px;
+  display: block;
+  line-height: 30px;
+  text-align: center;
+  opacity: .9;
+}
+
+.profil .social-links ul {
+  position: absolute;
+  display: flex;
+  bottom: 50px;
+  right: 130px;
+}
+
+.profil .download {
+  position: absolute;
+  border: 2px solid #f5f5f5;
+  text-decoration: none;
+  padding: 5px 35px;
+  color: #f5f5f5;
+  font-size: 20px;
+  border-radius: 50px;
+  bottom: 15px;
+  right: 115px;
+  text-align: center;
+}
+
+
+
+
+/* Akhir Profil */
+
+
+/* About */
+.about {
+  display: flex;
+  width: 65%;
+  height: 100%;
+  background-color: rgb(17, 17, 17);
+  border-radius: 40px;
+  margin-right: -22px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.about h2 {
+  margin: auto;
+  line-height: 100%;
+  color: #f5f5f5;
+  font-size: 60px;
+  line-height: 74px;
+}
+
+.about p {
+  color: #aaa;
+  font-size: 21px;
+  font-weight: 300;
+  margin: 5px 0;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Akhir About */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
